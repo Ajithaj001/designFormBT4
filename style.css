@@ -1,0 +1,118 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.left{
+	margin-top: 14%;
+	margin-left: 21%;
+}
+.right input{
+	border:none;
+	border-bottom:  2px solid black;
+	width: 100%;
+	text-align: left;
+	display: block;
+	text-align: center;
+}
+.col-4 form {
+	margin-bottom: 100px;
+	background: white;
+	padding: 90px;
+border-bottom-left-radius: 20%;
+border-top-left-radius: 20%;
+
+
+
+width: 500px;
+
+}
+body{
+	/*width: 100%;
+	height: 100%;*/
+
+	width: 100%;
+	margin: all;
+	min-width: 100px;
+	max-width: 2000px;
+	
+	background-image: linear-gradient(to bottom right, violet, skyblue);
+
+
+}
+.cont{
+	margin-top: 90px;
+	color: white;
+}
+
+.right i{
+	position: absolute;
+
+}
+
+
+	
+	
+
+
+.input-container label{
+	display: flex;
+	display: -ms-flexbox;
+}
+
+.input-container i{
+	 padding: 5px;
+            min-width: 30px;
+            color: violet;
+}
+.right  span{
+	
+	color: red;
+	
+
+}
+.input-container span i {
+	color: green;
+}
+
+.submitError i{
+	margin-top: 30px;
+
+}
+
+
+
+.right .btn{
+	border: none;
+  color: white;
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, violet, skyblue);
+  margin: 4px 2px;
+  /*cursor: pointer;*/
+  border-radius: 15px;
+  float: right;
+  width: 50%;
+}
+
+.left .btn2{
+	border: none;
+  color: white;
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: grey;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  
+  width: 30%;
+
+}
+@media only screen and (max-width: 3000px)
+{
+	[class*="col-"]{
+		width: 100%;
+	}
+}
